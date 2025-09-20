@@ -1,0 +1,55 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+package model;
+
+import java.sql.Timestamp;
+
+public class Contact {
+   private int id;
+   private String name;
+   private String email;
+   private String phone;
+   private Timestamp createdAt;
+
+   public Contact() {
+   }
+
+   public int getId() {
+      return this.id;
+   }
+
+   public void setId(int var1) {
+      this.id = var1;
+   }
+
+   public String getName() {
+      return this.name;
+   }
+
+   public void setName(String var1) {
+      this.name = var1;
+   }
+
+   public String getEmail() {
+      return this.email;
+   }
+
+   public void setEmail(String var1) {
+      this.email = var1;
+   }
+
+   public String getPhone() {
+      return this.phone;
+   }
+
+   public void setPhone(String var1) {
+      this.phone = var1;
+   }
+
+   public Timestamp getCreatedAt() {
+      return this.createdAt;
+   }
+
+   public void setCreatedAt(Timestamp var1) {
+      this.createdAt = var1;
+   }
+}

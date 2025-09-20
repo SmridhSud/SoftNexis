@@ -1,0 +1,4 @@
+com\softnexis\util\ValidationUtil.class
+com\softnexis\model\Contact.class
+com\softnexis\servlet\AddContactServlet.class
+com\softnexis\servlet\ContactServlet.class
